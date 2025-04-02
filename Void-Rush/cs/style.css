@@ -1,0 +1,139 @@
+/* Universal values - written by @curioushiva */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 400px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+main {
+    width: 100%;
+    height: 100%;
+    font-family: "Dosis", sans-serif;
+    background-color: #131314;
+}
+
+/* Header */
+.header {
+    height: 20%;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    color: #fff;
+    background-color: #377febbc;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.header img {
+    height: 40px;
+}
+
+
+
+/* Middle Content */
+.content {
+    height: 80%;
+    width: 100%;
+    padding: 50px 20px 0px 20px;
+    color: white;
+}
+
+.content h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.content p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 25px;
+    display: none;
+}
+
+.content .userinput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.userinput input {
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: white;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.userinput button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    font-family: "Dosis", sans-serif;
+}
+
+.userinput button i {
+    text-align: center;
+    font-size: 17px;
+}
+
+/* Footer */
+.footer {
+    height: 15%;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    color: #fff;
+    background-color: #377febbc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .lc a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer .rc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer .rc a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Code ends here */
